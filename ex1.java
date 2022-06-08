@@ -6,16 +6,20 @@ public class ex1 {
     
     
         Scanner ler = new Scanner(System.in);
-        float a,h,b,B;
-        System.out.println("Digite a altura(h): ");
-        h= ler.nextFloat();
-        System.out.println("Digite a base menor(b): ");
-        b= ler.nextInt();
-        System.out.println("Digite a base maior(B): ");
-        B= ler.nextInt();
-        a = (h * (b + B)) / 2;
+        double A,h,b,B;
+       
+        System.out.println("Digite a altura do trapézio");
+        h = ler.nextDouble();
 
-        System.out.println("A área do trapézio é: " + a);
+        System.out.println("Digite o valor da base menor");
+        b = ler.nextDouble();
+
+        System.out.println("Digite a base maior");
+        B = ler.nextDouble();
+
+        A = (h * (b + B)) / 2;
+        
+        System.out.println("A Área do trapézio é igual " + A);
 
     }
 
