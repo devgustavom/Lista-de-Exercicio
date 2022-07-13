@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex5_pag33 {
+public class ex7 {
 
     public static void main(String[] args) {
 
